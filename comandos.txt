@@ -22,5 +22,6 @@ git clone [url]             # Clonar repositorio
 git branch                  # Ver ramas
 
 PARA MANEJAR ERRORES:
+
 git restore [archivo]       # Deshacer cambios en archivo
 git reset --hard HEAD       # Descartar todos los cambios
