@@ -10,5 +10,17 @@ git add archivo
 
 git commit -m "Mensaje"
 
-//subir ese archivo o archivos al repositorio
+//subir ese archivo o archivos al repositorio (subir a la nube)
 git push origin main
+
+//actualizar datos (bajar de la nube)
+git pull origin main
+
+git log --oneline           # Ver historial simplificado
+git diff                    # Ver cambios no guardados
+git clone [url]             # Clonar repositorio
+git branch                  # Ver ramas
+
+PARA MANEJAR ERRORES:
+git restore [archivo]       # Deshacer cambios en archivo
+git reset --hard HEAD       # Descartar todos los cambios
