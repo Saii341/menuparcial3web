@@ -1,0 +1,14 @@
+para marcar la carpeta/ruta como segura
+git config --global --add safe.directory 'root' 
+
+git status --> para verificar cuales archivos modificaste
+
+añadir todos los archivos 
+git add .
+(en cambio si solo quieres subir uno)
+git add archivo
+
+git commit -m "Mensaje"
+
+//subir ese archivo o archivos al repositorio
+git push origin main
