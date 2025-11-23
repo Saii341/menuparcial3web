@@ -1,3 +1,6 @@
+para hacer git clone
+https://github.com/Saii341/menuparcial3web
+
 para marcar la carpeta/ruta como segura
 git config --global --add safe.directory 'root' 
 
