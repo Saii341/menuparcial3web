@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -37,4 +38,45 @@
 <body>
     <div class="ball"></div>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelota Interactiva</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            /*fondno de instaglam*/
+            background: linear-gradient(145deg, #1a2a6c, #b21f1f, #fdbb2d);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .ball {
+            width: 80px;
+            height: 80px;
+            background: radial-gradient(circle at 30% 30%, #ffeb3b, #f57f17);
+            border-radius: 50%;
+            transition: all 0.8s ease;
+            
+        }
+        
+        .ball:hover {
+            width: 120px;
+            height: 120px;
+            transform: translateX(200px);
+            background: radial-gradient(circle at 30% 30%, #ff9800, #e65100);
+        }
+    </style>
+</head>
+<body>
+    <div class="ball"></div>
+</body>
+>>>>>>> ee192c2cea3d64e21da7b2f9256dfcc0cd93bc0b
 </html>

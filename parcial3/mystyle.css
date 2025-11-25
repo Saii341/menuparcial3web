@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 .danger {
   color: red;
   font-size: 25px;
   font-weight: bold;
   border: 1px solid blue;
   background-color: green;
+=======
+.danger {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  background-color: green;
+>>>>>>> ee192c2cea3d64e21da7b2f9256dfcc0cd93bc0b
 }
