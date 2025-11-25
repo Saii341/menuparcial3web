@@ -80,7 +80,7 @@
   --bs-link-color: #64a19d;
   --bs-link-hover-color: #50817e;
   --bs-code-color: #d63384;
-  --bs-highlight-bg: #faf4e0;
+  --bs-highlight-bg: #f2e0fa;
 }
 
 *,
@@ -2849,11 +2849,11 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #64a19d;
-  --bs-btn-border-color: #64a19d;
+  --bs-btn-bg: #bc163f;
+  --bs-btn-border-color: #a30029;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #558985;
-  --bs-btn-hover-border-color: #50817e;
+  --bs-btn-hover-bg: #7200b9;
+  --bs-btn-hover-border-color: #9f00ad;
   --bs-btn-focus-shadow-rgb: 123, 175, 172;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #50817e;
@@ -11041,15 +11041,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #7200b9;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #7200b9;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #7200b9;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #7200b9;
   }
 }
 
@@ -11069,7 +11069,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/tanjiro-demon-slayer-4k-wallpaper-uhdpaper.com-938@5@g.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11161,8 +11161,9 @@ body {
 }
 
 .contact-section {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.5) 100%, #000 100%), url("../assets/img/cssbackground.png");
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .contact-section .card {
   border: 0;
@@ -11176,7 +11177,7 @@ body {
 }
 .contact-section .card hr {
   opacity: 1;
-  border-color: #64a19d;
+  border-color: #D2042D;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -11201,4 +11202,64 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+/* Estilos para la sección de ejercicios */
+.ejercicios-section {
+    padding: 8rem 0;
+}
+
+.ejercicio-card {
+    transition: all 0.3s ease-in-out;
+    border: none;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.ejercicio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.ejercicio-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.ejercicio-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.ejercicio-card .card-body {
+    padding: 1.5rem;
+}
+
+.ejercicio-card .card-footer {
+    background: transparent;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 1rem 1.5rem;
+}
+/* Animaciones para los ejercicios */
+.ejercicio-item {
+    transition: all 0.3s ease-in-out;
+}
+
+.ejercicio-item:hover {
+    transform: translateY(-5px);
+}
+
+.ejercicio-img {
+    transition: transform 0.3s ease;
+}
+
+.ejercicio-item:hover .ejercicio-img {
+    transform: scale(1.02);
+}
+
+.project {
+    transition: all 0.3s ease;
+}
+
+.ejercicio-item:hover .project {
+    background-color: #2c3e50 !important;
 }
